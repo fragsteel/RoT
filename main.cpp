@@ -30,7 +30,7 @@ enum
 
 bool MyApp::OnInit()
 {
-	MyFrame *frame = new MyFrame(_T("Hello World"), wxPoint(50,50),
+	MyFrame *frame = new MyFrame(_T("TinyBot"), wxPoint(50,50),
                 wxSize(450,350));
 
 	frame->Connect( ID_Quit, wxEVT_COMMAND_MENU_SELECTED,
